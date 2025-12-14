@@ -1,0 +1,14 @@
+# XRP Ledger Python SDK
+xrpl-py==5.0.0
+
+# BIP39 / BIP44 wallet derivation
+bip-utils==2.9.0
+
+# HTTP requests (used internally by xrpl-py)
+requests>=2.31.0
+
+# Optional: base58 encoding/decoding (used internally by xrpl-py)
+base58>=2.1.1
+
+# Optional: cryptography for ED25519 signing
+cryptography>=41.0.0
